@@ -55,5 +55,104 @@ public class Main {
         System.out.println("    *    ");
         System.out.println("  * * *  ");
         System.out.println("* * * * *");
+
+        //homework 2
+        //1 Напишите функциональность, которая вычисляет площадь круга
+
+        double radius = 5.0;
+        double area = Math.PI * radius * radius;
+        System.out.printf("Площадь круга с радиусом %s = %s", radius, area);
+
+        System.out.println("\n");
+
+        //2 Переведите температуру в градусах Цельсия в Фаренгейты
+
+        double celsius = 25.0;
+        double fahrenheit = (celsius * 9/5) + 32;
+        System.out.printf("Температура %.2f°C = %.2f°F%n", celsius, fahrenheit);
+
+        System.out.println("\n");
+
+        //3 Проверьте, является ли длина сроки "Hello" равной длине другой строки
+
+        String str1 = "Hello";
+        String str2 = "World!";
+        boolean isEqual = str1.length() == str2.length();
+        System.out.printf("Длины строк \"%s\" и \"%s\" %s%n",
+                str1, str2, isEqual ? "равны" : "не равны");
+
+        System.out.println("\n");
+
+        //4 Напишите функциональность, которая определяет, является ли год високосным
+
+        int year = 2024;
+        boolean isLeap = (year % 4 == 0 && year % 100 != 0) || (year % 400 == 0);
+        //true - год делится на 4 и не делится на 100 или делится на 400
+        System.out.printf("Год %d %s високосным.%n", year, isLeap ? "является" : "не является");
+
+        System.out.println("\n");
+
+        //5 Напишите калькулятор ИМТ
+
+        double weight = 100.0; // вес в кг
+        double height = 2.0; // рост в метрах
+        double bmi = weight / (height * height);
+        System.out.printf("Индекс массы тела (ИМТ) для веса %s кг и роста %s м = %s",
+                weight, height, bmi);
+
+        System.out.println("\n");
+
+        //6 Выведите в консоль таблицу истинности для операторов && и ||
+
+        System.out.println("A     | B     | A && B | A || B");
+        System.out.println("--------------------------------");
+        System.out.printf("%5b | %5b | %6b | %6b%n", false, false, false && false, false || false);
+        System.out.printf("%5b | %5b | %6b | %6b%n", false, true, false && true, false || true);
+        System.out.printf("%5b | %5b | %6b | %6b%n", true, false, true && false, true || false);
+        System.out.printf("%5b | %5b | %6b | %6b%n\n", true, true, true && true, true || true);
+
+        System.out.println("\n");
+
+        //7 Выведите в консоль квадрат
+
+        System.out.println("* * * * *");
+        System.out.println("* * * * *");
+        System.out.println("* * * * *");
+        System.out.println("* * * * *");
+        System.out.println("* * * * *");
+
+        System.out.println("\n");
+
+        //8 Выведите в консоль полый квадрат
+
+        System.out.println("* * * * *");
+        System.out.println("*       *");
+        System.out.println("*       *");
+        System.out.println("*       *");
+        System.out.println("* * * * *");
+
+        System.out.println("\n");
+
+        //9 Выведите в консоль ромб
+
+        System.out.println("    *    ");
+        System.out.println("   * *   ");
+        System.out.println("  *   *  ");
+        System.out.println(" *     * ");
+        System.out.println("  *   *  ");
+        System.out.println("   * *   ");
+        System.out.println("    *    ");
+
+        //10 Выведите в консоль смайлик
+
+        System.out.println("\n");
+
+        System.out.println("   *****   ");
+        System.out.println(" *       * ");
+        System.out.println("*  O   O  *");
+        System.out.println("*    ^    *");
+        System.out.println("*   \\_/   *");
+        System.out.println(" *       * ");
+        System.out.println("   *****   ");
     }
 }
