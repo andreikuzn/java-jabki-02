@@ -68,7 +68,7 @@ public class Main {
         //2 Переведите температуру в градусах Цельсия в Фаренгейты
 
         double celsius = 25.0;
-        double fahrenheit = (celsius * 9/5) + 32;
+        double fahrenheit = (celsius * 9 / 5) + 32;
         System.out.printf("Температура %.2f°C = %.2f°F%n", celsius, fahrenheit);
 
         System.out.println("\n");
