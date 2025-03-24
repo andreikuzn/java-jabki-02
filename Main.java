@@ -63,7 +63,7 @@ public class Main {
         double area = Math.PI * radius * radius;
         System.out.printf("Площадь круга с радиусом %s = %s", radius, area);
 
-        System.out.println("\n");
+        System.out.println();
 
         //2 Переведите температуру в градусах Цельсия в Фаренгейты
 
@@ -71,7 +71,7 @@ public class Main {
         double fahrenheit = (celsius * 9 / 5) + 32;
         System.out.printf("Температура %.2f°C = %.2f°F%n", celsius, fahrenheit);
 
-        System.out.println("\n");
+        System.out.println();
 
         //3 Проверьте, является ли длина сроки "Hello" равной длине другой строки
 
@@ -81,7 +81,7 @@ public class Main {
         System.out.printf("Длины строк \"%s\" и \"%s\" %s%n",
                 str1, str2, isEqual ? "равны" : "не равны");
 
-        System.out.println("\n");
+        System.out.println();
 
         //4 Напишите функциональность, которая определяет, является ли год високосным
 
@@ -90,7 +90,7 @@ public class Main {
         //true - год делится на 4 и не делится на 100 или делится на 400
         System.out.printf("Год %d %s високосным.%n", year, isLeap ? "является" : "не является");
 
-        System.out.println("\n");
+        System.out.println();
 
         //5 Напишите калькулятор ИМТ
 
@@ -100,7 +100,7 @@ public class Main {
         System.out.printf("Индекс массы тела (ИМТ) для веса %s кг и роста %s м = %s",
                 weight, height, bmi);
 
-        System.out.println("\n");
+        System.out.println();
 
         //6 Выведите в консоль таблицу истинности для операторов && и ||
 
@@ -111,7 +111,7 @@ public class Main {
         System.out.printf("%5b | %5b | %6b | %6b%n", true, false, true && false, true || false);
         System.out.printf("%5b | %5b | %6b | %6b%n\n", true, true, true && true, true || true);
 
-        System.out.println("\n");
+        System.out.println();
 
         //7 Выведите в консоль квадрат
 
@@ -121,7 +121,7 @@ public class Main {
         System.out.println("* * * * *");
         System.out.println("* * * * *");
 
-        System.out.println("\n");
+        System.out.println();
 
         //8 Выведите в консоль полый квадрат
 
@@ -131,7 +131,7 @@ public class Main {
         System.out.println("*       *");
         System.out.println("* * * * *");
 
-        System.out.println("\n");
+        System.out.println();
 
         //9 Выведите в консоль ромб
 
@@ -145,7 +145,7 @@ public class Main {
 
         //10 Выведите в консоль смайлик
 
-        System.out.println("\n");
+        System.out.println();
 
         System.out.println("   *****   ");
         System.out.println(" *       * ");
